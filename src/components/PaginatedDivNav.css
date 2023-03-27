@@ -1,0 +1,16 @@
+.pagination-range-list {
+  list-style: none;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.pagination-range-list-item {
+  padding: 0.6em 1.5em;
+  border-radius: 1em;
+  cursor: pointer;
+}
+.pagination-range-list-item.active {
+  border: 1px solid;
+  background-color: rgba(200, 200, 200, 0.2);
+}

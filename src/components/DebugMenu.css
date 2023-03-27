@@ -1,0 +1,40 @@
+:root {
+  --modal-time: 300ms;
+}
+.debug-window-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  transition: height var(--modal-time), width var(--modal-time);
+}
+.debug-window {
+  background-color: black;
+  width: fit-content;
+  border: solid 5px grey;
+  padding: 2em;
+}
+.hide-modal {
+  width: 0;
+  height: 0;
+}
+#debug-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 1em;
+}
+#debug-form label {
+  text-align: right;
+}
+button {
+  color: inherit;
+  background-color: inherit;
+  border-radius: 1em;
+  padding: 0.5em;
+  cursor: pointer;
+}

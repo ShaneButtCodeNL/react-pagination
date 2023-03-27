@@ -1,0 +1,21 @@
+table {
+  border: 3px solid;
+  min-width: 1000px;
+  margin: auto;
+  border-collapse: collapse;
+}
+tr {
+  outline: 1px solid;
+}
+th,
+td {
+  border: 1px solid;
+  padding: 1em;
+  text-align: center;
+  width: 25%;
+}
+.container {
+  min-width: 1000px;
+  width: fit-content;
+  margin: auto;
+}
